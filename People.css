@@ -1,0 +1,110 @@
+.peopletags
+{
+	font-size:20px;
+	font-weight:bold;
+	padding-left:2%;
+	float:left;
+	width:100%;
+}
+.mentor,.team,.followers,.following
+{
+	width:100%;
+	float:left;
+	padding-bottom:5px;
+	padding-top:5px;
+	margin-bottom:20px;
+	border-bottom:2px solid rgba(136,136,136,.7);
+	border-top:2px solid rgba(136,136,136,.7);
+}
+.peopledis
+{
+	width:20%;
+	margin:10px 2.5% auto;
+	height:172px;
+	padding-top:3px;
+	overflow-y:hidden;
+	float:left;
+	border-radius:5px 5px 5px 5px;
+	box-shadow:0px 0px 3px 0px rgba(136,136,136,0.7);
+}
+.team .peopledis
+{
+	height:150px;
+}
+.team,.following
+{
+	padding-left:2%;
+}
+.dispic
+{
+	display:block;
+	height:100px;
+	width:100px;
+	background-image:url("../img/snowtops.jpg");
+	background-size:100% 100%;
+	margin-left:20px;
+	//border:1px solid yellow;
+	border-radius:50%;
+}
+.disdetails
+{
+	width:100%;
+	padding:2px 2px;
+	float:left;
+	word-wrap:break-word;
+	//border:1px solid red;
+}
+.disdetails span
+{
+	text-align:center;
+	display:block;
+	padding-left:0px;
+}
+.name
+{
+	
+	font-size:90%;
+	font-weight:bold;
+}
+.proname
+{
+	font-size:80%;
+	color:blue;
+}
+.promem
+{
+	width:97%;
+	//border:1px solid red;
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+	border-radius:5px 5px 5px 5px;
+	padding:3px 1%;
+	box-shadow:0px 0px 4px 1px rgba(136,136,136,1);
+}
+.projecttag
+{
+	font-size:16px;
+	font-weight:bold;
+	text-align:left;
+	display:block;
+}
+.count
+{
+	font-size:15px;
+	font-weight:normal;
+	float:right;
+	margin:4px 2%;
+}
+.folpeo
+{
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	margin:5px 5px auto;
+	//border:1px solid red;
+	background-image:url("../img/snowtops.jpg");
+	background-size:100% 100%;
+	float:left;
+	cursor:hand;
+}
